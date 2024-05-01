@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "ejSRIDVbn0WCaErNCsrljCdDgcYgC/ohWzDK2MQurgA=",
+  "Source": "S3-Demo",
+  "BasePath": "_content/S3-Demo",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
