@@ -1,5 +1,4 @@
 ﻿using Amazon.S3;
-using Amazon.S3.Util;
 using Microsoft.AspNetCore.Mvc;
 
 namespace S3_Demo.Controllers;

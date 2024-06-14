@@ -6,9 +6,12 @@ namespace S3_Demo.Controllers;
 
 [Route("api/[controller]")]
 [ApiController]
-public class FilesController(IAmazonS3 s3Client) : ControllerBase
+public class FilesController : ControllerBase
 {
-    private readonly IAmazonS3 _s3Client = s3Client;
+    private readonly AmazonS3Client _s3Client = new(
+        AWSCredentials.AwsPublicKey,
+        AWSCredentials.AwsSecretKey,
+        Amazon.RegionEndpoint.USEast1);
 
     [HttpPost("upload")]
     public async Task<IActionResult> UploadFileAsync(IFormFile file, string bucketName, string? prefix)

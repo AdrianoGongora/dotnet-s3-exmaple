@@ -33,3 +33,4 @@
 /home/adriano-dev/Documents/proyecto/S3-Demo/bin/Debug/net8.0/AWSSDK.Core.dll
 /home/adriano-dev/Documents/proyecto/S3-Demo/bin/Debug/net8.0/AWSSDK.Extensions.NETCore.Setup.dll
 /home/adriano-dev/Documents/proyecto/S3-Demo/bin/Debug/net8.0/AWSSDK.S3.dll
+/home/adriano-dev/Documents/proyecto/S3-Demo/obj/Debug/net8.0/S3-Demo.sourcelink.json
